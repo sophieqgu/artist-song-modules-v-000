@@ -7,10 +7,6 @@ class Song
   include Memorable::InstanceMethods, Paramable
   @@songs = []
 
- # def initialize
- #   @@songs << self
- # end
-
   def self.all
     @@songs
   end
